@@ -20,3 +20,18 @@
  h1, h2, h3 {
    font-family: 'Open Sans', sans-serif;
  }
+
+body, .navbar {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6bba70+0,6bba70+100;Green+Flat+%234 */
+  background: #6bba70; /* Old browsers */
+  background: -webkit-gradient(linear, 0 0, 100% 0, from(#6bba70), to(#6bba70));
+  background: -webkit-linear-gradient(left, #6bba70 0%, #6bba70 100%);
+  background: -moz-linear-gradient(left, #6bba70 0%, #6bba70 100%);
+  background: -o-linear-gradient(left, #6bba70 0%, #6bba70 100%);
+  background: linear-gradient(left, #6bba70 0%, #6bba70 100%); /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6bba70', endColorstr='#6bba70',GradientType=1 ); /* IE6-9 */
+
+}  
+  .navbar {
+    border:none
+  }
