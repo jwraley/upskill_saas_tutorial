@@ -21,7 +21,7 @@
    font-family: 'Open Sans', sans-serif;
  }
 
-body, .navbar {
+ .home-callout, .navbar {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6bba70+0,6bba70+100;Green+Flat+%234 */
   background: #6bba70; /* Old browsers */
   background: -webkit-gradient(linear, 0 0, 100% 0, from(#6bba70), to(#6bba70));
@@ -34,4 +34,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6bba70', end
 }  
   .navbar {
     border:none
+  }
+  
+  .home-callout {
+    color:white;
+    margin-top: -20px;
+    padding-top: 50px;
+    padding-bottom: 100px
   }
